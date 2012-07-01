@@ -29,12 +29,13 @@
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 		<?php
-			echo $this->Html->css('bootstrap.min.css');
 			echo $this->Html->script('jquery-1.7.2.js');
 			echo $this->Html->script('bootstrap.js');
+			echo $this->Html->script('script');
+			echo $this->Html->script('home');
+			echo $this->Html->css('bootstrap.min.css');
 			echo $this->Html->css('style');
 			echo $this->Html->css('home');
-			echo $this->Html->script('home');
 			//echo $this->Html->script('mixpanel.js');
 		?>
 	</head>
@@ -73,7 +74,7 @@
 			</div>
 			<div id='footer'>
 				<div id='about'>
-					created by <a href='http://twitter.com/dennis_qian'>@dennis_qian</a>.
+					created by <a href='http://twitter.com/dennis_qian' id='twitter'>@dennis_qian</a>.
 				</div>
 			</div>
 			<a href='https://github.com/dqian/screen-bin'>
