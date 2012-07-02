@@ -55,8 +55,8 @@
 					<div id='screenshot-image'>
 						<div id='instructions-container' class='overlay'>
 							<div id='instructions-label'>
-								Take a screenshot.</br>
-								Paste.
+								<?php echo $instruction_1; ?></br>
+								<?php echo $instruction_2; ?>
 							</div>
 						</div>
 
@@ -66,7 +66,7 @@
 						
 						<div id='url-container' class='overlay'>
 							<div id='url-label'>
-								<div id='screenshot-url'>Retrieving screenshot URL...</div>
+								<input type='text' readonly='readonly' id='screenshot-url'>
 							</div>
 						</div>
 					</div>
