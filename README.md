@@ -1,7 +1,8 @@
 ScreenBin
-(now MonkeyV, code will be updated soon!)
 ==========
 short URLs for screenshots @ [screenb.in](http://screenb.in/)
+
+(now MonkeyV @ [monkeyv.com](http://monkeyv.com/), code will be updated soon!)
 
 Requirements
 ---------------------
